@@ -2,7 +2,6 @@ import { Component, EventEmitter, Input, input, Output } from '@angular/core';
 import { Product } from '../modals/product';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RedHighlightDirective } from '../directives/red-highlight.directive';
 
 @Component({
   selector: 'app-product',
